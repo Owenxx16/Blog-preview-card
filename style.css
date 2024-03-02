@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(47, 88%, 63%);
+  font-family: 'Figtree',sans-serif;
+}
+.container{
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1rem 20px;
+  margin: 3rem auto 2rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  text-align: left;
+  border: 0.5px solid;
+  box-shadow: 7px 7px;
+}
+.info span{
+  font-weight: bold;
+  background-color: hsl(47, 88%, 63%); 
+  font-weight: 800;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding : 5px 5px;
+}
+
+.ig-haha{
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(0, 0%, 50%);
+  padding: 10px 5px;
+  margin-bottom: 8px;
+}
+.ig-p1{
+  margin-top: 17px;
+  margin-bottom: 25px;
+}
+.container svg{
+  border-radius: 17px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.info h2{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.info h2:hover{
+  color:hsl(47, 88%, 63%);
+  font-weight: 800;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.container .img-info{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.container .img-info img{
+  width: 35px;
+}
+.container .img-info p{
+  font-weight: 800;
+}
